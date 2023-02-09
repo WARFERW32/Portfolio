@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    background-color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection{
+    background: #9f526430;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 80px;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.nav-links-container{
+    display: flex;
+    list-style: none;
+
+}
+.links{
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    opacity: 0.5;
+    transition: .5s;
+}
+.links.active, .links:hover{
+    opacity: 1;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.header-heading .brand-name{
+    display: block;
+    text-transform: capitalize;
+    font-size: 5rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.brand-name span{
+    color: #9f5264;
+}
+
+.btn{
+    color: #121212;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    transition: .5s;
+    margin-right: 20px;
+}
