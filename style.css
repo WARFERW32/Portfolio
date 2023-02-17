@@ -304,7 +304,7 @@ body{
     position: absolute;
     height: 120%;
     right: -11%;
-    top: 50%;
+    top: 0%;
     border-right: 2px dashed #9f5264;
     transform: translate(+50%);
 }
@@ -318,4 +318,70 @@ body{
     transform: translate(-50%);
     border-radius: 50%;
     border: 3px solid #9f5264;
+}
+
+.card-container:nth-child(even) .card::before{
+    left: -8%;
+}
+
+/* project section */
+
+#project-section{
+    position: relative;
+    margin: 50px 0;
+    padding: 0 10vw;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.filter-btn{
+    margin-right: 0;
+}
+
+.filter-btn.active{
+    background: #9f5264;
+    color: #fff;
+}
+
+.project-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+.project-card{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    background: #ebebeb;
+    transition: .5s;
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-thumbnail{
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.close-btn{
+    display: none;
+}
+
+.project-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
