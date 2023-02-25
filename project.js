@@ -72,7 +72,7 @@ const createProjectCards = (data) => {
    let projectContainer = document.querySelector('.project-container');
 
    projectContainer.innerHTML += `
-      <div class="project-card data-tags="${data.tags}">
+      <div class="project-card" data-tags="${data.tags}">
          <div class="project-wrapper">
             <div class="project-thumbnail">
                <img src="img/close.png" class="close-btn" alt="">
