@@ -5,7 +5,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#javascript, #css'
  },
  {
     image: 'img/project-2.png',
@@ -13,7 +13,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#javascript, #fullstack'
  },
  {
     image: 'img/project-3.png',
@@ -21,7 +21,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#fullstack, #css'
  },
  {
     image: 'img/project-4.png',
@@ -29,7 +29,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#fullstack, #css'
  },
  {
     image: 'img/project-5.png',
@@ -37,7 +37,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#javascript, #fullstack'
  },
  {
     image: 'img/project-6.png',
@@ -45,7 +45,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#javascript, #css'
  },
  {
     image: 'img/project-7.png',
@@ -53,7 +53,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#css'
  },
  {
     image: 'img/project-8.png',
@@ -61,7 +61,7 @@ let projectData = [
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
     github: '#',
     live: '#',
-    tags: '#javascript, #fullstack, #css'
+    tags: '#fullstack'
  },
 ]
 
