@@ -3,7 +3,7 @@ let projectData = [
     image: 'img/project-1.png',
     name: 'project one',
     detail: 'Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-    github: '#',
+    github: 'https://itorrents-igruha.org/3007-starfield.html',
     live: '#',
     tags: '#javascript, #css'
  },
